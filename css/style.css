@@ -1,0 +1,95 @@
+body{
+    margin:2px;
+    display: block;
+    height:600px;
+   
+}
+.navbar{ width:100%;
+    background-image: linear-gradient(to left,teal, skyblue);
+    height:35px;
+    display: inline-flex;
+    justify-content:space-between;
+    text-transform: uppercase;
+    color:black;
+   
+    border-color:black;
+    
+    
+}
+.navbar a{
+    color: gold;
+    text-decoration:transparent;
+} 
+.navbar  a:hover{
+    color: black ;
+    border-bottom: solid black 2px;
+}
+.navbar a.active{
+    color: black ;
+    border-bottom: solid black 2px;
+}
+.righthead{
+    margin:auto;
+    margin-right:10px;
+}
+.lefthead{
+    margin:auto;
+    margin-left:10px;
+}
+.content{
+    height:590px;
+    display:flex;
+    background-image: linear-gradient(to right,teal, skyblue);
+}
+.leftbar{
+    
+    display:;
+    width:250px;
+    height:100%;
+    text-transform:uppercase;
+    font-family:fantasy;
+    font-size :25px;
+    
+}
+.rightbar{
+    width:100%;
+    height:100%;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+.port
+{height:197px;
+    width:25%;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    
+}
+
+.footer{
+    display:flex;
+    background-image: conic-gradient(skyblue,teal, skyblue,teal);
+    height:30px;
+    width:100%;
+    flex-flow: row wrap;
+   justify-content:space-between;
+    font-size:20px;
+    
+}
+.footer a{
+    text-decoration:none;
+    color: gold;
+    
+}
+
+.port1{
+    margin-top:100px;
+    border-radius:100%;
+    width:90%;
+    height:200px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    opacity:70%;
+    border:2px double black;
+}
